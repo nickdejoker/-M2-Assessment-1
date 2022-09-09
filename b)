@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function rolldice(){
+			return Math.floor(Math.random()*7);
+		}
+		let i=rolldice();
+		console.log(i);
+		
+		if(i=== 1){
+		  console.log("Best Agricultural Solution");
+		}
+		else if(i=== 2){
+			console.log("Best Enterprise Solution");
+		  }
+		  else if(i=== 3){
+			console.log("Best Consumer Solution");
+		  }
+		  else if(i=== 4){
+			console.log("Best African Solution");
+		  }
+		  else if(i=== 5){
+			console.log("Most Innovative Solution");
+		  }
+		  else if(i=== 6){
+			console.log("Best Gaming Solution");
+		  }
+	</script>
+</body>
+</html>
